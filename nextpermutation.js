@@ -8,4 +8,5 @@ const nextPermutation = (nums) => {
     for (i++, j = nums.length - 1; i < j; i++, j--) {
         [nums[i], nums[j]] = [nums[j], nums[i]];
     }
+}
     console.log(nextPermutation(nums))
