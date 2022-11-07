@@ -9,4 +9,4 @@ const nextPermutation = (nums) => {
         [nums[i], nums[j]] = [nums[j], nums[i]];
     }
 }
-    console.log(nextPermutation(nums))
+console.log(nextPermutation(nums))
